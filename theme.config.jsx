@@ -3,9 +3,9 @@ import { useConfig } from "nextra-theme-docs";
 
 export default {
   logo: <b>BancoLibre</b>,
-  docsRepositoryBase: "https://github.com/AmbossTech/amboss-banco-docs",
+  docsRepositoryBase: "https://github.com/kipu-org/banco-docs",
   project: {
-    link: "https://github.com/AmbossTech/",
+    link: "https://github.com/kipu-org/",
   },
   useNextSeoProps() {
     const { asPath } = useRouter();
